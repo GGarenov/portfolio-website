@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
+import React from "react";
 import { Col } from "react-bootstrap";
 
 export const ProjectCard = ({ title, description, imgUrl, link }) => {
   return (
     <Col sm={6} md={4}>
-      <Link to={link}>
+      <a href={link} target="_blank" rel="noopener noreferrer">
         <div className="proj-imgbx">
           <img src={imgUrl} alt={title} />
           <div className="proj-txtx">
@@ -12,7 +12,7 @@ export const ProjectCard = ({ title, description, imgUrl, link }) => {
             <span>{description}</span>
           </div>
         </div>
-      </Link>
+      </a>
     </Col>
   );
 };
