@@ -6,7 +6,7 @@ import headerImg from "../assets/img/header-img.svg";
 function Banner() {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["JavaScript Developer", "React Developer", "Digital Marketing Expert"];
+  const toRotate = ["JavaScript Developer", "React Developer"];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -49,7 +49,7 @@ function Banner() {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
-              {`Hi I'm Garenov`} <span className="wrap">{text}</span>
+              {`Hi I'm Georgiy`} <span className="wrap">{text}</span>
             </h1>
             <p>Tva shte e nakuv text motivirasht primerno</p>
             <button onClick={() => console.log("connect")}>

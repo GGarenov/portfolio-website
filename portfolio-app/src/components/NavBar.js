@@ -67,9 +67,12 @@ function NavBar() {
                 <img src={navIcon2} alt="" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log("connet")}>
-              <span>Let's Connect</span>
-            </button>
+
+            <a href="#connect">
+              <button className="vvd">
+                <span>Let's Connect</span>
+              </button>
+            </a>
           </span>
         </Navbar.Collapse>
       </Container>
