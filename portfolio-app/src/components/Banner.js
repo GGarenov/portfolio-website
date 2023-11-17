@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/header-img.png";
 
 function Banner() {
   const [loopNum, setLoopNum] = useState(0);
@@ -51,10 +51,15 @@ function Banner() {
             <h1>
               {`Hi I'm Georgiy`} <span className="wrap">{text}</span>
             </h1>
-            <p>Tva shte e nakuv text motivirasht primerno</p>
-            <button onClick={() => console.log("connect")}>
-              Let's connect <ArrowRightCircle size={25} />{" "}
-            </button>
+            <p>
+              Full-stack developer with a love for clean code and creative solutions. Let's build something amazing
+              together!
+            </p>
+            <a href="#connect">
+              <button onClick={() => console.log("connect")}>
+                Let's connect <ArrowRightCircle size={25} />{" "}
+              </button>
+            </a>
           </Col>
 
           <Col xs={12} md={6} xl={5}>
