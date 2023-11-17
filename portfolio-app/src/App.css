@@ -619,3 +619,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
+
+/************ Error Css ************/
+
+.error-bubble {
+  position: relative;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.error-bubble.danger {
+  background-color: #ffcccc;
+  color: #ff0000;
+}
+
+.error-bubble.success {
+  background-color: #ccffcc;
+  color: #00ff00;
+}
+

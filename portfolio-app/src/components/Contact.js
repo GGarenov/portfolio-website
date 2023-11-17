@@ -56,7 +56,10 @@ export const Contact = () => {
       (error) => {
         console.log(error.text);
         setButtonText("Send");
-        setStatus({ success: false, message: "Something went wrong, please try again later." });
+        setStatus({
+          success: false,
+          message: "Something went wrong, please try again later.",
+        });
         setFormDetails(formInitialDetails);
       }
     );
@@ -142,15 +145,16 @@ export const Contact = () => {
                         validateMessage(e.target.value);
                       }}
                     ></textarea>
+                    {status.message && (
+                      <div className={`error-bubble ${status.success === false ? "danger" : "success"}`}>
+                        {status.message}
+                      </div>
+                    )}
+
                     <button type="submit">
                       <span>{buttonText}</span>
                     </button>
                   </Col>
-                  {status.message && (
-                    <Col>
-                      <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
-                    </Col>
-                  )}
                 </Row>
               </form>
             </div>
