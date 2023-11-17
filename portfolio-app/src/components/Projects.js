@@ -15,18 +15,18 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Electronic Shop",
+      description: "Express JS and MongoDB Application",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Wizards creatures",
+      description: "Express JS and MongoDB Application",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Personal Portfolio",
+      description: "Build with React",
       imgUrl: projImg4,
     },
     {
