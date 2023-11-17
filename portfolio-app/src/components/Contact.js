@@ -9,7 +9,6 @@ export const Contact = () => {
     firstName: "",
     lastName: "",
     email: "",
-    phone: "",
     message: "",
   };
   const [formDetails, setFormDetails] = useState(formInitialDetails);
@@ -26,7 +25,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("http://localhost:5000/contact", {
+    let response = await fetch("http://localhost:3000/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -89,14 +88,7 @@ export const Contact = () => {
                           onChange={(e) => onFormUpdate("email", e.target.value)}
                         />
                       </Col>
-                      <Col size={12} sm={6} className="px-1">
-                        <input
-                          type="tel"
-                          value={formDetails.phone}
-                          placeholder="Phone No."
-                          onChange={(e) => onFormUpdate("phone", e.target.value)}
-                        />
-                      </Col>
+
                       <Col size={12} className="px-1">
                         <textarea
                           rows="6"
