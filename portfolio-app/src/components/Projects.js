@@ -13,6 +13,7 @@ export const Projects = () => {
       title: "Real Estate App",
       description: "Build with Express, React and MongoDB",
       imgUrl: projImg1,
+      link: "https://real-estate-app-mern-qxrr.onrender.com/",
     },
     {
       title: "Electronic Shop",
