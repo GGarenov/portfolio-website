@@ -640,3 +640,40 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #00ff00;
 }
 
+
+@media (max-width: 768px) {
+  nav.navbar .navbar-nav {
+    flex-direction: flex;
+    text-align: center;
+  }
+
+  nav.navbar .navbar-nav .nav-link {
+    padding: 15px 0;
+  }
+}
+
+
+.navbar-toggle-icon {
+  color: #fff; /* Set the color to white */
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+navbar-collapse {
+  background-color: #121212; /* Set the background color */
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+.navbar-nav {
+  text-align: center; /* Center-align the navbar links */
+}
+
+.navbar-link {
+  display: block;
+  padding: 10px;
+  color: #fff; /* Set the text color */
+  font-size: 28px; /* Set the font size */
+}
+
+.navbar-link:hover {
+  background-color: #333; /* Set the background color on hover */
+}

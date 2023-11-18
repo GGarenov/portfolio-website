@@ -31,8 +31,8 @@ function NavBar() {
         <Navbar.Brand href="#home">
           <img src={logo} alt="Logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <span className="navbar-toggle-icon"></span>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggle-btn">
+          <span className="navbar-toggle-icon">&#9776;</span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
