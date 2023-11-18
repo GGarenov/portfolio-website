@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/project1.png";
 import projImg2 from "../assets/img/project2.png";
 import projImg3 from "../assets/img/project3.png";
 import projImg4 from "../assets/img/project4.png";
+import projImg5 from "../assets/img/project5.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 
@@ -19,21 +20,25 @@ export const Projects = () => {
       title: "Electronic Shop",
       description: "Express JS and MongoDB Application",
       imgUrl: projImg2,
+      link: "https://github.com/GGarenov/el_shop",
     },
     {
       title: "Wizards creatures",
       description: "Express JS and MongoDB Application",
       imgUrl: projImg3,
+      link: "https://github.com/GGarenov/wizard-creatures",
     },
     {
       title: "Personal Portfolio",
       description: "Build with React",
       imgUrl: projImg4,
+      link: "https://github.com/GGarenov/portfolio-website",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Tetris game",
+      description: "Build with React",
+      imgUrl: projImg5,
+      link: "https://github.com/GGarenov/tetris_game/",
     },
     {
       title: "Business Startup",
