@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.0c524d74.css",
+    "main.js": "/portfolio-website/static/js/main.eb5cc509.js",
+    "static/js/787.f91f1cc7.chunk.js": "/portfolio-website/static/js/787.f91f1cc7.chunk.js",
+    "static/media/header-img.png": "/portfolio-website/static/media/header-img.316aedb618d966f44490.png",
+    "static/media/color-sharp.png": "/portfolio-website/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/portfolio-website/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/project2.png": "/portfolio-website/static/media/project2.9624aba98aeac7b8e9be.png",
+    "static/media/project3.png": "/portfolio-website/static/media/project3.4e10b460a0bcb66c4d78.png",
+    "static/media/project5.png": "/portfolio-website/static/media/project5.5f53a9592a8733d516ca.png",
+    "static/media/banner-bg.png": "/portfolio-website/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/project1.png": "/portfolio-website/static/media/project1.3c6a785fc9bd00273d00.png",
+    "static/media/project4.png": "/portfolio-website/static/media/project4.3866354b1817d0176bc6.png",
+    "static/media/CentraNo2-Bold.ttf": "/portfolio-website/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/portfolio-website/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/portfolio-website/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/portfolio-website/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/contact-img.svg": "/portfolio-website/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/revicons.eot": "/portfolio-website/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio-website/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/logo1.png": "/portfolio-website/static/media/logo1.6b5f85321ff750789ae4.png",
+    "static/media/revicons.woff": "/portfolio-website/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meter2.svg": "/portfolio-website/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
+    "static/media/meter1.svg": "/portfolio-website/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
+    "static/media/meter3.svg": "/portfolio-website/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "static/media/nav-icon2.svg": "/portfolio-website/static/media/nav-icon2.4494646109697eba55e506cecdae660b.svg",
+    "index.html": "/portfolio-website/index.html",
+    "static/media/nav-icon1.svg": "/portfolio-website/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.0c524d74.css.map": "/portfolio-website/static/css/main.0c524d74.css.map",
+    "main.eb5cc509.js.map": "/portfolio-website/static/js/main.eb5cc509.js.map",
+    "787.f91f1cc7.chunk.js.map": "/portfolio-website/static/js/787.f91f1cc7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c524d74.css",
+    "static/js/main.eb5cc509.js"
+  ]
+}
