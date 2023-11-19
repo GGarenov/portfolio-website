@@ -67,13 +67,6 @@ input:focus, textarea:focus, select:focus {
   outline: none;
 }
 
-@media (min-width:1700px) {
-	main .container {
-		max-width: 100%;
-		padding: 0 150px;
-	}
-}
-
 p.success {
 	color: green;
 }
@@ -548,19 +541,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.newsletter-bx {
-  background: #FFFFFF;
-  border-radius: 55px;
-  color: #121212;
-  padding: 85px 125px;
-  margin-bottom: 80px;
-  margin-top: -122px;
-}
-.newsletter-bx h3 {
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  line-height: 1.2em;
-}
+
 .new-email-bx {
   background: #fff;
   padding: 5px;
@@ -643,18 +624,37 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media (max-width: 768px) {
   nav.navbar .navbar-nav {
-    flex-direction: flex;
+    flex-direction: column;
     text-align: center;
   }
 
   nav.navbar .navbar-nav .nav-link {
     padding: 15px 0;
   }
-}
-
 
 .navbar-toggle-icon {
-  color: #fff; /* Set the color to white */
-  font-size: 24px; /* Adjust the font size as needed */
+  color: #fff; 
+  font-size: 24px; 
 }
+
+.me-auto {
+  background-color: black;
+}
+
+.navbar-text {
+  background-color: black;
+  flex-direction: column;
+}
+
+.vvd {
+ margin-top: 15%;
+ 
+}
+
+}
+
+
+
+
+
 
