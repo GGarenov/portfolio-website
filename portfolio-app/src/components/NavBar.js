@@ -64,7 +64,7 @@ function NavBar() {
                 <img src={navIcon1} alt="" />
               </a>
               <a href="https://github.com/GGarenov" target="_blank" rel="noopener noreferrer">
-                <img src={navIcon2} alt="" />
+                <img src={navIcon2} alt="" className="github" />
               </a>
             </div>
 
