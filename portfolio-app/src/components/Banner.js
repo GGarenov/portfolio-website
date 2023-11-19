@@ -52,7 +52,7 @@ function Banner() {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
-              {isMobile ? `Hi I'm Georgi Web Developer` : `Hi I'm Georgi`}{" "}
+              {isMobile ? `Hi I'm Georgi. Web Developer` : `Hi I'm Georgi`}{" "}
               <span className="wrap">{isMobile ? "" : text}</span>
             </h1>
             <p>
@@ -74,5 +74,5 @@ function Banner() {
     </section>
   );
 }
-d;
+
 export default Banner;

@@ -651,6 +651,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
  
 }
 
+
+.react-multiple-carousel__arrow--left {
+  margin-bottom: 150px;
+  margin-right: 100px ;
+}
+
+.react-multiple-carousel__arrow--right {
+  margin-bottom: 150px;
+  margin-left: 100px ;
+}
+
 }
 
 
