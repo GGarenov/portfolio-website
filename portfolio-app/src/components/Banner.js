@@ -42,6 +42,9 @@ function Banner() {
     }
   };
 
+  // Check if the screen width is greater than 768px (adjust as needed)
+  const isMobile = window.innerWidth <= 768;
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -49,7 +52,8 @@ function Banner() {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
-              {`Hi I'm Georgi`} <span className="wrap">{text}</span>
+              {isMobile ? `Hi I'm Georgi Web Developer` : `Hi I'm Georgi`}{" "}
+              <span className="wrap">{isMobile ? "" : text}</span>
             </h1>
             <p>
               Full-stack developer with a love for clean code and creative solutions. Let's build something amazing
