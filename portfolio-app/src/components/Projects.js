@@ -41,8 +41,8 @@ export const Projects = () => {
       link: "https://github.com/GGarenov/tetris_game/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Ecommerce website",
+      description: "Build with React",
       imgUrl: projImg3,
     },
   ];
