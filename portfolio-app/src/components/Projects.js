@@ -16,18 +16,21 @@ export const Projects = () => {
       imgUrl: projImg1,
       githubLink: "https://github.com/GGarenov/real-estate-app",
       previewLink: "https://real-estate-app-mern-qxrr.onrender.com/",
+      category: "react",
     },
     {
       title: "Electronic Shop",
       description: "Project for Soft Uni where I used Express JS and MongoDB. The front-end is build with Handlebars",
       imgUrl: projImg2,
       githubLink: "https://github.com/GGarenov/el_shop",
+      category: "express",
     },
     {
       title: "Wizards creatures",
       description: "Another Express JS and MongoDB project for Soft Uni. The front-end is build with Handlebars",
       imgUrl: projImg3,
       githubLink: "https://github.com/GGarenov/wizard-creatures",
+      category: "express",
     },
     {
       title: "Personal Portfolio",
@@ -35,12 +38,14 @@ export const Projects = () => {
       imgUrl: projImg4,
       githubLink: "https://github.com/GGarenov/portfolio-website",
       previewLink: "https://ggarenov.github.io/portfolio-website/",
+      category: "react",
     },
     {
       title: "Tetris game",
       description: "Simple tetris game build with React but also demonstrated my pure javascript skills",
       imgUrl: projImg5,
       githubLink: "https://github.com/GGarenov/tetris_game/",
+      category: "vanilla",
     },
     {
       title: "Ecommerce website",
@@ -48,6 +53,7 @@ export const Projects = () => {
         "This ecommerce website is build with Next JS and React. It is connected to Firebase and Stripe for payments",
       imgUrl: projImg3,
       githubLink: "https://github.com/GGarenov/ecommerce-nextjs/",
+      category: "react",
     },
   ];
 
@@ -81,19 +87,35 @@ export const Projects = () => {
                 <Tab.Content id="slideInUp">
                   <Tab.Pane eventKey="first">
                     <Row>
-                      {projects.map((project, index) => {
-                        return <ProjectCard key={index} {...project} />;
-                      })}
+                      {projects
+                        .filter((project) => project.category === "react")
+                        .map((project, index) => {
+                          return <ProjectCard key={index} {...project} />;
+                        })}
                     </Row>
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
                     <p>Back-End Projects with ready to use simple front-end.</p>
+                    <Row>
+                      {projects
+                        .filter((project) => project.category === "express")
+                        .map((project, index) => {
+                          return <ProjectCard key={index} {...project} />;
+                        })}
+                    </Row>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
                     <p>
                       These projects are created on Vanilla JavaScript. Mostly games or other simple projects. To
                       demonstrate my pure javascript skills
                     </p>
+                    <Row>
+                      {projects
+                        .filter((project) => project.category === "vanilla")
+                        .map((project, index) => {
+                          return <ProjectCard key={index} {...project} />;
+                        })}
+                    </Row>
                   </Tab.Pane>
                 </Tab.Content>
               </Tab.Container>
