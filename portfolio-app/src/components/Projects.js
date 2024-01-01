@@ -45,6 +45,7 @@ export const Projects = () => {
       description: "Simple tetris game build with React but also demonstrated my pure javascript skills",
       imgUrl: projImg5,
       githubLink: "https://github.com/GGarenov/tetris_game/",
+      previewLink: "https://ggarenov.github.io/tetris_game/",
       category: "vanilla",
     },
     {
