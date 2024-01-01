@@ -658,3 +658,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 24px; /* Adjust the font size as needed */
 }
 
+
+.mr-10 {
+  margin-right: 1rem;
+}
+
+.mt-10 {
+  margin-top: 3rem;
+}
+
