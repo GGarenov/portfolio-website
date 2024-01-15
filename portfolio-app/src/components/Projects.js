@@ -5,6 +5,8 @@ import projImg2 from "../assets/img/project2.png";
 import projImg3 from "../assets/img/project3.png";
 import projImg4 from "../assets/img/project4.png";
 import projImg5 from "../assets/img/project5.png";
+import projImg6 from "../assets/img/project6.png";
+import projImg7 from "../assets/img/project7.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 
@@ -27,9 +29,16 @@ export const Projects = () => {
     },
     {
       title: "Wizards creatures",
-      description: "Another Express JS and MongoDB project for Soft Uni. The front-end is build with Handlebars",
+      description: "Another Express JS and MongoDB project for Soft Uni. The front-end is built with Handlebars",
       imgUrl: projImg3,
       githubLink: "https://github.com/GGarenov/wizard-creatures",
+      category: "express",
+    },
+    {
+      title: "Course Book",
+      description: "Express JS and MongoDB project for Soft Uni. The front-end is built with Handlebars",
+      imgUrl: projImg7,
+      githubLink: "https://github.com/GGarenov/Course_Book_express_app",
       category: "express",
     },
     {
@@ -52,7 +61,7 @@ export const Projects = () => {
       title: "Ecommerce website",
       description:
         "This ecommerce website is build with Next JS and React. It is connected to Firebase and Stripe for payments",
-      imgUrl: projImg3,
+      imgUrl: projImg6,
       githubLink: "https://github.com/GGarenov/ecommerce-nextjs/",
       category: "react",
     },
