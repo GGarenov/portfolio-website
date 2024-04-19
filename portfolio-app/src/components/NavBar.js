@@ -29,30 +29,39 @@ function NavBar() {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={logo} alt="Logo" />
+          <h1>Georgi Garenov</h1>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggle-btn">
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          className="custom-toggle-btn"
+        >
           <span className="navbar-toggle-icon">&#9776;</span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link
               href="#home"
-              className={activeLink === "home" ? "active navbar-link" : "navbar-link"}
+              className={
+                activeLink === "home" ? "active navbar-link" : "navbar-link"
+              }
               onClick={() => onUpdateActiveLink("home")}
             >
               Home
             </Nav.Link>
             <Nav.Link
               href="#skills"
-              className={activeLink === "skills" ? "active navbar-link" : "navbar-link"}
+              className={
+                activeLink === "skills" ? "active navbar-link" : "navbar-link"
+              }
               onClick={() => onUpdateActiveLink("skills")}
             >
               Skills
             </Nav.Link>
             <Nav.Link
               href="#projects"
-              className={activeLink === "projects" ? "active navbar-link" : "navbar-link"}
+              className={
+                activeLink === "projects" ? "active navbar-link" : "navbar-link"
+              }
               onClick={() => onUpdateActiveLink("projects")}
             >
               Projects
@@ -60,10 +69,18 @@ function NavBar() {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/ggarenov/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/ggarenov/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="https://github.com/GGarenov" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/GGarenov"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={navIcon2} alt="" />
               </a>
             </div>
