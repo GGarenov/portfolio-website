@@ -8,6 +8,7 @@ import projImg5 from "../assets/img/project5.png";
 import projImg6 from "../assets/img/project6.png";
 import projImg7 from "../assets/img/project7.png";
 import projImg8 from "../assets/img/project8.png";
+import projImg9 from "../assets/img/project9.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 
@@ -75,6 +76,15 @@ export const Projects = () => {
       description:
         "This is a simple blog page with admin panel for the CRUD operations written on Angular and Firebase",
       imgUrl: projImg8,
+      githubLink: "https://github.com/GGarenov/angular-blog-app",
+      previewLink: "https://angular-blog-ab62c.web.app/",
+      category: "react",
+    },
+    {
+      title: "Ecommerce App with admin panel (MERN)",
+      description:
+        "This is an ecommerce app built on react, express, mongodb. Admin panel for the CRUD operations",
+      imgUrl: projImg9,
       githubLink: "https://github.com/GGarenov/angular-blog-app",
       previewLink: "https://angular-blog-ab62c.web.app/",
       category: "react",
