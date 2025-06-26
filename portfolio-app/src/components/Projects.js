@@ -85,8 +85,8 @@ export const Projects = () => {
       description:
         "This is an ecommerce app built on react, express, mongodb. Admin panel for the CRUD operations",
       imgUrl: projImg9,
-      githubLink: "https://github.com/GGarenov/angular-blog-app",
-      previewLink: "https://angular-blog-ab62c.web.app/",
+      githubLink: "https://github.com/GGarenov/ecommerce-app",
+      previewLink: "https://sunglasses-ecommerce-app.vercel.app/",
       category: "react",
     },
   ];
